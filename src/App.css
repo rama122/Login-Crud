@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+input{
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+  padding: 0 5px;
+}
+label{
+  width: 150px;
+}
+.but button{
+  border-radius: 5px !important;
+  background-color: rgb(20, 83, 220);
+  color: white;
+  outline: none;
+  border: none;
+}
+.main{
+  background-color:rgb(20, 83, 220) ;
+}
+.formbgs{
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.logBut{
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color:red;
+  font-weight: bolder;
+}
+.small-container{
+  border: 1px solid black;
+}
+
+@media screen and (max-width:576px) {
+  .formbgs{
+    width: 400px;
+  }
+}
